@@ -6,8 +6,8 @@ import HeroSection from './herosection'
 const BuyCrypto = () => {
   return (
     <div style={{ backgroundColor: limeGreen, height: "100vh" }}>
-        <Navbar />
-        <HeroSection />
+      <Navbar />
+      <HeroSection />
     </div>
   )
 }
