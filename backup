@@ -1,0 +1,62 @@
+<div className="flex justify-center items-center mb-2">
+                <div className="w-1/2  flex flex-col justify-start">
+                    {/* <p className="font-bold text-black text-center">Column 1</p> */}
+                    <div className="mb-2">
+                        <p className="font-semi-bold text-gray-400">Referal ID</p>
+                    </div>
+                    <div className='flex'>
+                        <svg className="w-6 h-6 text-gray-600 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        <p className="font-bold text-center text-black text-bold">KJ755D_15</p>
+                    </div>
+                </div>
+                <div className="w-1/2 flex flex-col justify-start px-6">
+                    {/* <p className="font-bold text-black text-center">Column 1</p> */}
+                    <div className="mb-2">
+                        <p className="font-semi-bold text-gray-400">Referal Link</p>
+                    </div>
+                    <div className='flex'>
+                        <svg className="w-6 h-6 text-gray-600 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        <p className="font-bold text-center text-black text-bold">https://landingpage.com</p>
+                    </div>
+                </div>
+            </div>
+            {/* Second row with gray background and 2 columns */}
+            <div className="bg-gray-200 flex justify-center items-center mb-2">
+                <div className="w-1/2  flex flex-col justify-start">
+                    {/* <p className="font-bold text-black text-center">Column 1</p> */}
+                    <div className="mb-2">
+                        <p className="font-semi-bold text-gray-400">You Receive</p>
+                    </div>
+                    <div className='flex'>
+                        <h3 className="font-bold text-center text-black text-bold">1000</h3>
+                        <p className='text-gray-500 ml-2'>tokens</p>
+                    </div>
+                </div>
+                <div className="w-1/2  flex flex-col justify-start">
+                    {/* <p className="font-bold text-black text-center">Column 1</p> */}
+                    <div className="mb-2">
+                        <p className="font-semi-bold text-gray-400">Friends Receive</p>
+                    </div>
+                    <div className='flex'>
+                        <h3 className="font-bold text-center text-black text-bold">1000</h3>
+                        <p className='text-gray-500 ml-2'>tokens</p>
+                    </div>
+                </div>
+            </div>
+            {/* Third row with a button */}
+            {/* <div className="flex justify-center mt-4 justify-center items-center mb-2">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Button</button>
+            </div> */}
+            <div className="w-full">
+                <button className="w-full bg-green-700 hover:bg-green-800 text-white py-2 px-4 rounded">
+                    Invite Friends
+                </button>
+            </div>
+            {/* Fourth row with a text */}
+            <div className="mt-4 justify-center items-center mb-2">
+                <p className='text-green-600 font-bold'>Your referal rules</p>
+            </div>

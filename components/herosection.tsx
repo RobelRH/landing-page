@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Card from './card'
 
 const HeroSection = () => {
   return (
@@ -20,6 +21,10 @@ const HeroSection = () => {
             <p className='text-gray-500 py-5 text-center px-36'>
               Refer a friend and earn 1000 tokens for each referral. we know a favor demands a favor; that's why your friends are also awarded 100 tokens
             </p>
+            <div className='flex justify-center text-center px-12'>
+              <Card />
+            </div>
+            {/* <p>hello</p> */}
           </div>
         </div>
 
