@@ -5,7 +5,7 @@ import HeroSection from './herosection'
 
 const BuyCrypto = () => {
   return (
-    <div style={{ backgroundColor: limeGreen, height: "100vh" }}>
+    <div className='relative' style={{ backgroundColor: limeGreen, height: "100vh" }}>
       <Navbar />
       <HeroSection />
     </div>

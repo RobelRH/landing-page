@@ -7,7 +7,7 @@ export const Navbar = () => {
             {/* Left side */}
             <div className="flex items-center">
                 {/* Logo */}
-                <div className="font-bold mr-4 px-4" style={{ color: green }}>Crypto.Co</div>
+                <div className="font-bold mr-4 px-4" style={{ color: green }}>Green.landing</div>
                 {/* Menu */}
                 <ul className="flex space-x-4">
                     {
